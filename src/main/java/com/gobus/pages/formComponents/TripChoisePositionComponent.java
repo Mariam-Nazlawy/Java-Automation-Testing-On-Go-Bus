@@ -30,16 +30,16 @@ public class TripChoisePositionComponent extends BasePage {
 
 
     public void selectSourceStation(String source, String station){
-         click(sourceMenue);
-         click(sourceValue(source));
-         click(stationValue(station));
+        findElementUntilBeClickable(sourceMenue).click();
+        findElementUntilBeClickable(sourceValue(source)).click();
+        findElementUntilBeClickable(stationValue(station)).click();
     }
 
 
 
     public void selectDestination(String destination){
-        click(destinationMenue);
-        click(destinationValue(destination));
+        findElementUntilBeClickable(destinationMenue).click();
+        findElementUntilBeClickable(destinationValue(destination)).click();
     }
 
 

@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Write test cases to test login, trip type, trip source, trip destination, trip date, and trip count seats.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/travelDestinationPage.java" afterDir="false" />
+    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add travelDestination and goBusStations Pages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/book/BookSeatsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/book/TripsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/payment/PaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/TripInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripTypeSwitcherComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripTypeSwitcherComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/forms/BookGoBusForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/forms/BookGoBusForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +60,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gobus.pages.book" />
+      <recent name="com.gobus.pages.forms" />
       <recent name="com.gobus.pages.base" />
       <recent name="com.gobus.pages.formComponents" />
-      <recent name="com.gobus.pages.forms" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gobus.pages.base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DateTest.testDateselection">
+  <component name="RunManager" selected="TestNG.TripInfoTest.testTripInfo">
     <configuration name="DateTest.testDateselection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
@@ -72,24 +81,6 @@
       <option name="PACKAGE_NAME" value="tests.bookTests" />
       <option name="MAIN_CLASS_NAME" value="tests.bookTests.DateTest" />
       <option name="METHOD_NAME" value="testDateselection" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.loginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.loginTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
-      <option name="METHOD_NAME" value="testLoginWithInvalidCard" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,6 +124,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TripInfoTest.testTripInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.bookTests.TripInfoTest" />
+      <option name="METHOD_NAME" value="testTripInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TripTypeSwitcherTest.testTripTypeSwitcher" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TripInfoTest.testTripInfo" />
+        <item itemvalue="TestNG.SeatsCountTest.testSeatsCount" />
         <item itemvalue="TestNG.DateTest.testDateselection" />
         <item itemvalue="TestNG.PositionTest.testPositionSelection" />
-        <item itemvalue="TestNG.SeatsCountTest.testSeatsCount" />
         <item itemvalue="TestNG.TripTypeSwitcherTest.testTripTypeSwitcher" />
-        <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726952775549</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add travelDestination and goBusStations Pages">
+      <created>1726990740367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726990740367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +217,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up the base page" />
     <MESSAGE value="Write test cases to test login, trip type, trip source, trip destination, trip date, and trip count seats." />
-    <option name="LAST_COMMIT_MESSAGE" value="Write test cases to test login, trip type, trip source, trip destination, trip date, and trip count seats." />
+    <MESSAGE value="Add travelDestination and goBusStations Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add travelDestination and goBusStations Pages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWithPOM$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1726757063280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

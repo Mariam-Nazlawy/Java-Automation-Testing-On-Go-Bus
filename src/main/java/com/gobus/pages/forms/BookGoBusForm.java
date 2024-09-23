@@ -1,6 +1,7 @@
 package com.gobus.pages.forms;
 
 import com.gobus.pages.base.HomePage;
+import com.gobus.pages.book.TripsPage;
 import com.gobus.pages.formComponents.SeatsCountComponent;
 import com.gobus.pages.formComponents.TripChoiseDateComponent;
 import com.gobus.pages.formComponents.TripChoisePositionComponent;
@@ -29,8 +30,10 @@ public class BookGoBusForm extends HomePage {
         return new SeatsCountComponent();
     }
 
-    public  void clickshowTriosButton(){
+    public TripsPage goToTripsPage(){
+
          click(showTriosButton);
+         return new TripsPage();
     }
 
 }

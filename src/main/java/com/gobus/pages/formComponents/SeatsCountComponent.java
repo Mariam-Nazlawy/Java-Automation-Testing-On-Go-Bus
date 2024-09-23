@@ -27,6 +27,13 @@ public class SeatsCountComponent extends BasePage {
         return getText(seatsCount);
     }
 
+    public void setSeatsCount(String numOfSeats){
+        int numofSeats = Integer.parseInt(numOfSeats);
+        for(int i = 1; i < numofSeats; i++){
+            click(incrementalButton);
+        }
+    }
+
     public boolean isExceededMaxCount(int maxNumofSeats){
 
         for(int i = 1; i <= maxNumofSeats; i++){

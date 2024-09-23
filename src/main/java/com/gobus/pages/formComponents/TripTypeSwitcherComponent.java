@@ -27,7 +27,7 @@ public class TripTypeSwitcherComponent extends BookGoBusForm {
     }
 
     public String getRoundTripText(){
-        return getText(roundTripRadioBtn);
+        return findElementUntilBeVisible(roundTripRadioBtn).getText();
     }
 
 }
