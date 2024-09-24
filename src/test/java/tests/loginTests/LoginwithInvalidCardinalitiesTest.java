@@ -4,17 +4,16 @@ import base.BaseTest;
 import com.gobus.pages.base.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.ReadXLSFile;
 
 import static com.gobus.pages.forms.LoginOptionsForm.getErrorMessage;
 
 
 public class LoginwithInvalidCardinalitiesTest extends BaseTest {
-    private String email = "wefew@example.com";
-    private String password = "gobus-secret";
-
     
     // test with invalid cardinalities
-    @Test void testLoginWithInvalidCard(){
+    @Test(dataProvider = "testdata" ,dataProviderClass = ReadXLSFile .class)
+     public void testLoginWithInvalidCard(String email, String password){
         var loginUsingEmail = HomePage.goToLoginOptionsForm().goTologinWithEmail();
 
         loginUsingEmail.logintoGoBus(email, password);

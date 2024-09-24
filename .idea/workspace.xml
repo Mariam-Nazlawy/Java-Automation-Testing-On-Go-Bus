@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add travelDestination and goBusStations Pages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/book/BookSeatsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/book/TripsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/payment/PaymentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/TripInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadXLSFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripTypeSwitcherComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripTypeSwitcherComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/forms/BookGoBusForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/forms/BookGoBusForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginwithInvalidCardinalitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginwithInvalidCardinalitiesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,18 +64,48 @@
       <recent name="com.gobus.pages.base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TripInfoTest.testTripInfo">
-    <configuration name="DateTest.testDateselection" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard">
+    <configuration name="PrintData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.PrintData" />
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.DateTest" />
-      <option name="METHOD_NAME" value="testDateselection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.loginTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.loginTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.loginTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,71 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionTest.testPositionSelection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginwithInvalidCardinalitiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="PATTERN" value="tests.loginTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.PositionTest" />
-      <option name="METHOD_NAME" value="testPositionSelection" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.loginTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatsCountTest.testSeatsCount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="PATTERN" value="tests.loginTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.SeatsCountTest" />
-      <option name="METHOD_NAME" value="testSeatsCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripInfoTest.testTripInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.TripInfoTest" />
-      <option name="METHOD_NAME" value="testTripInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripTypeSwitcherTest.testTripTypeSwitcher" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.TripTypeSwitcherTest" />
-      <option name="METHOD_NAME" value="testTripTypeSwitcher" />
+      <option name="PACKAGE_NAME" value="tests.loginTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
+      <option name="METHOD_NAME" value="testLoginWithInvalidCard" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TripInfoTest.testTripInfo" />
-        <item itemvalue="TestNG.SeatsCountTest.testSeatsCount" />
-        <item itemvalue="TestNG.DateTest.testDateselection" />
-        <item itemvalue="TestNG.PositionTest.testPositionSelection" />
-        <item itemvalue="TestNG.TripTypeSwitcherTest.testTripTypeSwitcher" />
+        <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" />
+        <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
+        <item itemvalue="Application.PrintData" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726990740367</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add travelDestination and goBusStations Pages">
+      <created>1727096088264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727096088264</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
