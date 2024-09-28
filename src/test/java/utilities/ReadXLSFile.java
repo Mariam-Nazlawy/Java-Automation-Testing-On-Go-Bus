@@ -32,21 +32,21 @@ public class ReadXLSFile {
             throw new RuntimeException("Sheet with name '" + fileName + "' does not exist in the Excel file.");
         }
 
-        int totalRows = sheetName.getLastRowNum();
+        int totalRows = sheetName.getPhysicalNumberOfRows();
         Row rowCells = sheetName.getRow(0);
         int totalColumns =  rowCells.getLastCellNum();
 
         DataFormatter formatter = new DataFormatter();
 
-        String[][] testData = new String[totalRows][totalColumns];
+        String[][] testData = new String[totalRows - 1][totalColumns];
 
-        int dataRowIndex = 0;
+
         for(int i =1; i < totalRows; i++){
+            Row row = sheetName.getRow(i);
             for(int j =0; j < totalColumns; j++){
-                Cell cell = sheetName.getRow(i).getCell(j);
-                testData[dataRowIndex][j] = formatter.formatCellValue(cell).trim();
+                Cell cell = row.getCell(j, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                testData[i-1][j] = formatter.formatCellValue(cell).trim();
             }
-            dataRowIndex++;
         }
 
         // Close the input stream and workbook

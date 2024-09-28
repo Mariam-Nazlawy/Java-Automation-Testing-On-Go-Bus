@@ -5,15 +5,12 @@ import com.gobus.pages.base.HomePage;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import utilities.ReadXLSFile;
 
 public class DateTest extends BaseTest {
-    @Test
-    public void testDateselection(){
+    @Test(dataProvider = "testdata" ,dataProviderClass = ReadXLSFile.class)
+    public void testDateselection(String date, String monthandYear, String day){
         var datePicker = HomePage.accessBookGoBus().getTripChoiseDateComponent();
-        String date = "Thu 12 December  2024";
-        String monthandYear = "December 2024";
-        String day = "12";
-
 
         datePicker.setDate(monthandYear, day);
         String actualDate = datePicker.getDate();

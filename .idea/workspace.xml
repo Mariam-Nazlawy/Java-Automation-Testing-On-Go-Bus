@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add travelDestination and goBusStations Pages">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadXLSFile.java" afterDir="false" />
+    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add Data Driven Test to the LoginTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/SeatsCountComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoiseDateComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoiseDateComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginwithInvalidCardinalitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/loginTests/LoginwithInvalidCardinalitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/bookTests/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/bookTests/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/PositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/bookTests/SeatsCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/SeatsCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/bookTests/TripInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/bookTests/TripInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReadXLSFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadXLSFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,48 +67,18 @@
       <recent name="com.gobus.pages.base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard">
-    <configuration name="PrintData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.PrintData" />
+  <component name="RunManager" selected="TestNG.TripInfoTest.testTripInfo">
+    <configuration name="DateTest.testDateselection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="tests.bookTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.loginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.loginTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.loginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.loginTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.bookTests.DateTest" />
+      <option name="METHOD_NAME" value="testDateselection" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,17 +103,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.loginTests.*" />
+          <option name="PATTERN" value="tests.bookTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.loginTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
-      <option name="METHOD_NAME" value="testLoginWithInvalidCard" />
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.bookTests.PositionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatsCountTest.testSeatsCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.bookTests.SeatsCountTest" />
+      <option name="METHOD_NAME" value="testSeatsCount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripInfoTest.testTripInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.bookTests.TripInfoTest" />
+      <option name="METHOD_NAME" value="testTripInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" />
+        <item itemvalue="TestNG.TripInfoTest.testTripInfo" />
+        <item itemvalue="TestNG.PositionTest" />
+        <item itemvalue="TestNG.SeatsCountTest.testSeatsCount" />
         <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.testLogin" />
-        <item itemvalue="Application.PrintData" />
+        <item itemvalue="TestNG.DateTest.testDateselection" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727096088264</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Data Driven Test to the LoginTest">
+      <created>1727205050128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727205050128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +228,8 @@
     <MESSAGE value="set up the base page" />
     <MESSAGE value="Write test cases to test login, trip type, trip source, trip destination, trip date, and trip count seats." />
     <MESSAGE value="Add travelDestination and goBusStations Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add travelDestination and goBusStations Pages" />
+    <MESSAGE value="Add Data Driven Test to the LoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Data Driven Test to the LoginTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWithPOM$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1726757063280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -4,15 +4,14 @@ import base.BaseTest;
 import com.gobus.pages.base.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.ReadXLSFile;
 
 public class SeatsCountTest extends BaseTest {
 
-    @Test
-    public void testSeatsCount(){
+    @Test(dataProvider = "testdata" ,dataProviderClass = ReadXLSFile.class)
+    public void testSeatsCount(String minCount, String maxCount){
 
         var seatsCountComponent = HomePage.accessBookGoBus().getSeatsCountComponent();
-        String minCount = "1";
-        int maxCount = 8;
         String ActualCount;
         String ExpectedCount;
 

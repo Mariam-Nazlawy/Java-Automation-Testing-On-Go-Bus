@@ -26,6 +26,7 @@ public class TripChoiseDateComponent extends BasePage {
         while(!currentMonthandYear.equals(monthAndYear)){
             click(nextMonthPicker);
             currentMonthandYear = getMonthandYear();
+            if(currentMonthandYear.equals("January 2026")) break;
         }
     }
 

@@ -5,15 +5,12 @@ import com.gobus.pages.base.HomePage;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import utilities.ReadXLSFile;
 
 public class PositionTest extends BaseTest {
-    @Test
-    public void testPositionSelection(){
+    @Test(dataProvider = "testdata" ,dataProviderClass = ReadXLSFile.class)
+    public void testPositionSelection(String source, String station, String destination){
         var position = HomePage.accessBookGoBus().getTripChoisePositionComponent();
-
-        String source = "Cairo";
-        String station = "Cairo ( Tahrir )";
-        String destination = "Aswan";
 
         // verify source selection
         position.selectSourceStation(source, station);
@@ -24,8 +21,6 @@ public class PositionTest extends BaseTest {
         position.selectDestination(destination);
         String actualDestination = position.getDestination();
         Assert.assertEquals(actualDestination, destination, "Actual destination and Expected destination do not match");
-
-
 
     }
 }

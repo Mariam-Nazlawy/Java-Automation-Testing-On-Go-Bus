@@ -5,34 +5,24 @@ import com.gobus.pages.base.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import utilities.ReadXLSFile;
+
 
 public class TripInfoTest extends BaseTest {
-    @Test
-    public void testTripInfo(){
-        var tripSwitcher = HomePage.accessBookGoBus().getTripTypeSwitcherComponent();
-        var position = HomePage.accessBookGoBus().getTripChoisePositionComponent();
-        var datePicker = HomePage.accessBookGoBus().getTripChoiseDateComponent();
-        var seatsCountComponent = HomePage.accessBookGoBus().getSeatsCountComponent();
+    @Test(dataProvider = "testdata" ,dataProviderClass = ReadXLSFile.class)
+    public void testTripInfo(String source, String station, String destination,
+                             String date, String monthandYear, String day,
+                             String numberOfSeats){
+        var gobusForm = HomePage.accessBookGoBus();
 
-
-        // Place Info
-        String source = "Cairo";
-        String station = "Cairo ( Tahrir )";
-        String destination = "Alexandria (Moharam BK)";
-
-        // Date Info
-        String date = "Thu 12 December  2024";
-        String monthandYear = "December 2024";
-        String day = "12";
-
-        // number of seats
-        String numberOfSeats = "2";
 
         // Test switching to One Way (assuming one-way is default)
+        var tripSwitcher = gobusForm.getTripTypeSwitcherComponent();
         Assert.assertTrue(tripSwitcher.isOneWaySelected(), "One Way should be selected by default");
 
 
         // verify source selection
+        var position = gobusForm.getTripChoisePositionComponent();
         position.selectSourceStation(source, station);
         String actualStation = position.getSource();
         Assert.assertEquals(actualStation, station, "Actual Source and Expected Source do not match");
@@ -42,19 +32,21 @@ public class TripInfoTest extends BaseTest {
         String actualDestination = position.getDestination();
         Assert.assertEquals(actualDestination, destination, "Actual destination and Expected destination do not match");
 
-        // verify selected date
+        // verify selected
+        var datePicker = gobusForm.getTripChoiseDateComponent();
         datePicker.setDate(monthandYear, day);
         String actualDate = datePicker.getDate();
         Assert.assertEquals(actualDate, date, "actual date and expected date do not match");
 
         // verify set seats count
+        var seatsCountComponent = gobusForm.getSeatsCountComponent();
         seatsCountComponent.setSeatsCount(numberOfSeats);
         String ActualCount = seatsCountComponent.getSeatsCount();
         Assert.assertEquals(ActualCount, numberOfSeats, "\nActual count and Expected count do not match\n" +
                 "Actual : ("+ ActualCount +" ) , Expected : (" + numberOfSeats +")\n");
 
         // verify go to the Page of Trip
-        var tripPage = HomePage.accessBookGoBus().goToTripsPage();
+        var tripPage = gobusForm.goToTripsPage();
         tripPage.isTripInfoHeaderDisplayed();
 
 
