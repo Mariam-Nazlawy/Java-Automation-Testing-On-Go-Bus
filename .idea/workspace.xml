@@ -4,53 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test">
-      <change afterPath="$PROJECT_DIR$/html/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/css/reportng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/css/reportngClass.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fixedIssues.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/graphsRClass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/graphsRSuite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/graphsTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/groupsresults.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/asc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/desc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/fav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/testng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/canvasjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/jquery-1.12.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/jquery.tablesorter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/json-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/reportng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/reportngClass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/js/sorttable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/knownIssues.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/newFeatures.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/newIssues.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/packages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/regression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/runArguments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/skippedIssues.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/suite1_test1_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/suites.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/suites_overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add Reportng">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/graphsRClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graphsRClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/graphsRSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graphsRSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/graphsTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graphsTime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/newIssues.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/newIssues.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/packages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/suites_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/suites_overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727761347702</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Reportng">
+      <created>1728296283142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728296283142</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +308,8 @@
     <MESSAGE value="Add Data Driven Test to the LoginTest" />
     <MESSAGE value="Add Data Driven Test to the test cases" />
     <MESSAGE value="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test" />
+    <MESSAGE value="Add Reportng" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Reportng" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWithPOM$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1726757063280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
