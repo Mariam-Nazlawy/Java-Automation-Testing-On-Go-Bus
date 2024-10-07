@@ -4,15 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add Data Driven Test to the test cases">
+    <list default="true" id="08fb5c35-aa6f-4183-9bfc-c03249d39242" name="Changes" comment="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test">
+      <change afterPath="$PROJECT_DIR$/html/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/reportng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/css/reportngClass.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fixedIssues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/graphsRClass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/graphsRSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/graphsTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/groupsresults.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/fav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/images/testng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/canvasjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/jquery-1.12.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/json-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/reportng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/reportngClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/js/sorttable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/knownIssues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/newFeatures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/newIssues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/packages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/regression.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/runArguments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/skippedIssues.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/suite1_test1_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/suites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/suites_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gobus/pages/formComponents/TripChoisePositionComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -39,16 +84,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Internships/Automation/SeleniumWithPOM&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "22",
+    "last_opened_file_path": "D:/Internships/Automation/SeleniumWithPOM",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gobus.pages.book" />
@@ -60,18 +105,20 @@
       <recent name="com.gobus.pages.base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard">
-    <configuration name="LoginwithInvalidCardinalitiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Internships/Automation/SeleniumWithPOM/testng.xml">
+    <configuration name="D:/Internships/Automation/SeleniumWithPOM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.loginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.loginTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="D:\Internships\Automation\SeleniumWithPOM" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -89,41 +136,6 @@
       <option name="PACKAGE_NAME" value="tests.loginTests" />
       <option name="MAIN_CLASS_NAME" value="tests.loginTests.LoginwithInvalidCardinalitiesTest" />
       <option name="METHOD_NAME" value="testLoginWithInvalidCard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.PositionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeatsCountTest.testSeatsCount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithPOM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.bookTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.bookTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.bookTests.SeatsCountTest" />
-      <option name="METHOD_NAME" value="testSeatsCount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,13 +161,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.gobus.pages.book" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gobus.pages.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gobus.pages.book" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.bookTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithPOM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.bookTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.bookTests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.com.gobus.pages.book" />
+      <item itemvalue="TestNG.D:/Internships/Automation/SeleniumWithPOM/testng.xml" />
+      <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" />
+      <item itemvalue="TestNG.tests.bookTests" />
+      <item itemvalue="TestNG.TripInfoTest.testTripInfo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Internships/Automation/SeleniumWithPOM/testng.xml" />
+        <item itemvalue="TestNG.tests.bookTests" />
+        <item itemvalue="TestNG.com.gobus.pages.book" />
         <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest.testLoginWithInvalidCard" />
         <item itemvalue="TestNG.TripInfoTest.testTripInfo" />
-        <item itemvalue="TestNG.PositionTest" />
-        <item itemvalue="TestNG.SeatsCountTest.testSeatsCount" />
-        <item itemvalue="TestNG.LoginwithInvalidCardinalitiesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727548034939</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test">
+      <created>1727761347702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727761347702</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +276,52 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -230,7 +333,8 @@
     <MESSAGE value="Add travelDestination and goBusStations Pages" />
     <MESSAGE value="Add Data Driven Test to the LoginTest" />
     <MESSAGE value="Add Data Driven Test to the test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Data Driven Test to the test cases" />
+    <MESSAGE value="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Set Driver Type&quot; function in the base test class to switch the driver type to help in the cross-browser test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWithPOM$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1726757063280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

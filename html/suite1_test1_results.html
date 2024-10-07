@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">D:/Internships/Automation/SeleniumWithPOM/src/test/java/tests/loginTests</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">tests.loginTests.LoginTest</th>
+	    <th id="testClassNameId" hidden="true">LoginTest</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">All Test Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">D:\Internships\Automation\SeleniumWithPOM\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:02:08</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>1</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="red">FAIL</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+												
+											<tr>
+	<td class="time">1728294464243</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('d6241afd-6dda-463b-ad56-d4ae547182aa','block');changeSingleIcon('span-d6241afd-6dda-463b-ad56-d4ae547182aa');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>tests.loginTests.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-d6241afd-6dda-463b-ad56-d4ae547182aa' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1728294464243</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>21.344s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"maryalawy@gmail.com", "gobus-"</span><br>
+				<div class="noCollapse" id="d6241afd-6dda-463b-ad56-d4ae547182aa" style="display: block;">
+						<a href="javascript:toggleElement('exception-d6241afd-6dda-463b-ad56-d4ae547182aa','block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;root&quot;]/div/div/div[1]/header/div[2]/div/div[3]/div[1]/div[1]/h4 (tried for 20 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;<br/>
+Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:2198}, msedge: {msedgedriverVersion: 129.0.2792.79 (47754e458450..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2198/devtool..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 81d4fe4f4c8c6e25af5223ae29a2314e</b></a><br/>
+		<div class="stackTrace" id="exception-d6241afd-6dda-463b-ad56-d4ae547182aa">
+					org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br/>
+					org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br/>
+					com.gobus.pages.base.BasePage.findElementUntilBeVisible(BasePage.java:39)<br/>
+					com.gobus.pages.forms.MyAccount.isHeaderDisplayed(MyAccount.java:10)<br/>
+					tests.loginTests.LoginTest.testLogin(LoginTest.java:17)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:580)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br/>
+					com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1728294492807</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('9c7f05db-6adf-40aa-b6df-96c9884f1c89','block');changeSingleIcon('span-9c7f05db-6adf-40aa-b6df-96c9884f1c89');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>tests.loginTests.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-9c7f05db-6adf-40aa-b6df-96c9884f1c89' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1728294492807</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>21.449s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"maryamnzlawy@gmail.com", "gobus-secr"</span><br>
+				<div class="noCollapse" id="9c7f05db-6adf-40aa-b6df-96c9884f1c89" style="display: block;">
+						<a href="javascript:toggleElement('exception-9c7f05db-6adf-40aa-b6df-96c9884f1c89','block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;root&quot;]/div/div/div[1]/header/div[2]/div/div[3]/div[1]/div[1]/h4 (tried for 20 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;<br/>
+Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:2254}, msedge: {msedgedriverVersion: 129.0.2792.79 (47754e458450..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2254/devtool..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2e3a02d38777784be66f187532edb119</b></a><br/>
+		<div class="stackTrace" id="exception-9c7f05db-6adf-40aa-b6df-96c9884f1c89">
+					org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br/>
+					org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br/>
+					com.gobus.pages.base.BasePage.findElementUntilBeVisible(BasePage.java:39)<br/>
+					com.gobus.pages.forms.MyAccount.isHeaderDisplayed(MyAccount.java:10)<br/>
+					tests.loginTests.LoginTest.testLogin(LoginTest.java:17)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:580)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br/>
+					com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1728294435755</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('c3f1add1-93d9-4424-a84f-f7b31635550f','block');changeSingleIcon('span-c3f1add1-93d9-4424-a84f-f7b31635550f');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>tests.loginTests.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-c3f1add1-93d9-4424-a84f-f7b31635550f' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1728294435755</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>21.257s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"maryamnzlawy@gmail.com", "gobus"</span><br>
+				<div class="noCollapse" id="c3f1add1-93d9-4424-a84f-f7b31635550f" style="display: block;">
+						<a href="javascript:toggleElement('exception-c3f1add1-93d9-4424-a84f-f7b31635550f','block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;root&quot;]/div/div/div[1]/header/div[2]/div/div[3]/div[1]/div[1]/h4 (tried for 20 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;<br/>
+Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:2141}, msedge: {msedgedriverVersion: 129.0.2792.79 (47754e458450..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2141/devtool..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 109f00ee4a422aa7772950335f867ab3</b></a><br/>
+		<div class="stackTrace" id="exception-c3f1add1-93d9-4424-a84f-f7b31635550f">
+					org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br/>
+					org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br/>
+					com.gobus.pages.base.BasePage.findElementUntilBeVisible(BasePage.java:39)<br/>
+					com.gobus.pages.forms.MyAccount.isHeaderDisplayed(MyAccount.java:10)<br/>
+					tests.loginTests.LoginTest.testLogin(LoginTest.java:17)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:580)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br/>
+					com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1728294407149</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf','block');changeSingleIcon('span-a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>tests.loginTests.LoginTest</div>
+	<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1728294407149</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>20.961s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"maryamnzy@gmail.com", "gobus-secret"</span><br>
+				<div class="noCollapse" id="a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf" style="display: block;">
+						<a href="javascript:toggleElement('exception-a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf','block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;root&quot;]/div/div/div[1]/header/div[2]/div/div[3]/div[1]/div[1]/h4 (tried for 20 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;<br/>
+Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:2077}, msedge: {msedgedriverVersion: 129.0.2792.79 (47754e458450..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2077/devtool..., se:cdpVersion: 129.0.2792.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 9d79e4751e91f675f34919ae738cd535</b></a><br/>
+		<div class="stackTrace" id="exception-a04aadaa-47ab-4285-b9ec-d5c9d9d9aadf">
+					org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br/>
+					org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)<br/>
+					com.gobus.pages.base.BasePage.findElementUntilBeVisible(BasePage.java:39)<br/>
+					com.gobus.pages.forms.MyAccount.isHeaderDisplayed(MyAccount.java:10)<br/>
+					tests.loginTests.LoginTest.testLogin(LoginTest.java:17)<br/>
+					java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:580)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1597)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br/>
+					com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+				
+												<tr>
+			<td class="time">1728294396167</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a20c48c4-ccb9-47f3-a022-9a717883d8a0','block');changeSingleIcon('span-a20c48c4-ccb9-47f3-a022-9a717883d8a0');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>tests.loginTests.LoginTest</div>
+			<div style="float:right;">@Test @ with DataProvider : ["testdata"] &nbsp;&nbsp;<span id='span-a20c48c4-ccb9-47f3-a022-9a717883d8a0' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1728294396167</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testLogin</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>3.626s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"maryamnzlawy@gmail.com", "gobus-secret"</span><br>
+				<div class="stackTrace" id="a20c48c4-ccb9-47f3-a022-9a717883d8a0" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

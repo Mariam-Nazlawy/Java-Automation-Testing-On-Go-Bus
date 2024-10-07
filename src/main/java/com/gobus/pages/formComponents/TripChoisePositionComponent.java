@@ -35,8 +35,6 @@ public class TripChoisePositionComponent extends BasePage {
         findElementUntilBeClickable(stationValue(station)).click();
     }
 
-
-
     public void selectDestination(String destination){
         findElementUntilBeClickable(destinationMenue).click();
         findElementUntilBeClickable(destinationValue(destination)).click();
